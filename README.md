@@ -55,7 +55,7 @@ During the Exploratory Data Analysis stage, we created the following visuals:
 
 # Machine Learning Modeling and Evaluation
 
-## Included Models
+## Evaluated Models
 - Linear Regression Model
 - Random Forest Model
 - Tuned Random Forest model
