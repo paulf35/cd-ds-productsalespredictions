@@ -1,6 +1,7 @@
 # Prediction of Product Sales
 **Author**: Paul Foy
-## Business Problem: 
+
+# Business Problem: 
 Big Mart stores need help predicting sales figures for specific items across their vast network of outlet stores. Predicting accurate sales figures has been a challenge for this client. This project will help Big Mart determine how to restock items and anticipate demand in a more agile way. 
 
 # Data Source
