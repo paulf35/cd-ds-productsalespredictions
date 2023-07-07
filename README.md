@@ -61,3 +61,30 @@ During the Exploratory Data Analysis stage, we created the following visuals:
 - Tuned Random Forest model
 
 ## Model Evaluations and Results
+**Linear Regression Model:**
+|     | MAE  | MSE | RMSE | R^2 |
+|-----|-------|-----------|--------|-----|
+|Train|847.663|1298669.325|1139.592|0.561|
+|Test| 810.386 |1210321.266 | 1100.146 | 0.568 |
+
+**Default Random Forest Model:**
+|	    |MAE    |	MSE	      | RMSE   |	R^2 |
+|-----|-------|-----------|--------|-----|
+|Train |296.841 |	182957.964 |	427.736 |	0.938 |
+|Test |	778.649 |	1249723.025 |	1117.910 |	0.554 |
+
+**Tuned Random Forest Model:**
+|	    |MAE    |	MSE	      | RMSE   |	R^2 |
+|-----|-------|-----------|--------|-----|
+|Train |637.369	| 806900.857 | 898.277 | 0.727
+|Test |	748.389 |	1154142.731 |	1074.310 |0.588
+
+#Recommendations
+
+Based on the results, the best performing model of the ones I evaluated was the Tuned Random Forest model.
+ - For the Tuned Random Forest model 58.8% of the variance in y was explained by x.
+ - The Mean Absolute Error was off by $748.389.
+ - The Mean Squared Error was $1,154,142.73.
+ - The Root Mean Squared Error was $1074.31
+
+While this model was the most performant of the ones tested, using this model to accurately predict sales would not be very reliable. The R^2 value is low (58.8%), so there is some bias in model. The Mean Squared Error value is also very high, which could make the model less than optimal. 
