@@ -80,7 +80,7 @@ During the Exploratory Data Analysis stage, we created the following visuals:
 |Train |637.369	| 806900.857 | 898.277 | 0.727
 |Test |	748.389 |	1154142.731 |	1074.310 |0.588
 
-# Recommendations
+# Model Recommendation
 
 Based on the results, the best performing model of the ones I evaluated was the Tuned Random Forest model. I recommend this model for deployment. 
 
