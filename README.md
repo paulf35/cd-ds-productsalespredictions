@@ -82,9 +82,7 @@ During the Exploratory Data Analysis stage, we created the following visuals:
 
 # Model Recommendation
 
-Based on the results, the best performing model of the ones I evaluated was the Tuned Random Forest model. I recommend this model for deployment. 
-
-There was some bias to the model (R^2 value was 58.8%), but it returned the lowest MAE value ($748.39) among the three models tested. 
+Based on the results detailed in the Model Evaluation and Results section, the best performing modelwas the Tuned Random Forest model. I recommend this model for deployment. There was some bias to the model (R^2 value was 58.8%), but it returned the lowest MAE value ($748.39) among the three models tested. 
 
 # Considerations
 While this model was the most performant of the ones tested, using this model to accurately predict sales would not be very reliable. The R^2 value is low (58.8%), so there is some bias in model. The Mean Squared Error value is also very high, which could make the model less than optimal. 
