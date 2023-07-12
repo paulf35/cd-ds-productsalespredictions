@@ -80,9 +80,7 @@ During the Exploratory Data Analysis stage, we created the following visuals:
 |Train |637.369	| 806900.857 | 898.277 | 0.727
 |Test |	748.389 |	1154142.731 |	1074.310 |0.588
 
+Based on the results detailed in the Model Evaluation and Results section, the best performing modelwas the Tuned Random Forest model. However, There is bias to the model.  It returned the lowest MAE value ($748.39) among the three models tested, which is acceptable given the average price for homes in the dataset. However, The R^2 value is only 58.8%, which means the that model is only predicting results for just over half of the data.
+
 # Model Recommendation
-
-Based on the results detailed in the Model Evaluation and Results section, the best performing modelwas the Tuned Random Forest model. I recommend this model for deployment. There was some bias to the model (R^2 value was 58.8%), but it returned the lowest MAE value ($748.39) among the three models tested. 
-
-# Considerations
-While this model was the most performant of the ones tested, using this model to accurately predict sales would not be very reliable. The R^2 value is low (58.8%), so there is some bias in model. The Mean Squared Error value is also very high, which could make the model less than optimal. 
+My recommendation is to test new models and continue tuning the model to increase the R^2 value. Additionally, in future models, I recommend we add additional helpful data and remove any features that aren't needed to create an accurate model.  
