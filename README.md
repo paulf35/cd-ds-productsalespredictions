@@ -40,9 +40,9 @@ During the Exploratory Data Analysis stage, we created the following visuals:
    
 ![EDA-ItemType-CountPlot](https://github.com/paulf35/cd-ds-productsalespredictions/assets/133720473/7b16e80b-9923-4454-b695-d5cecd8049a0)
 
-3. The average weights across all item types are very similar.
+3. There are more low-fat items then regular-fat items. 
    
-![EDA-Item_Type-BoxPlot](https://github.com/paulf35/cd-ds-productsalespredictions/assets/133720473/14c7cc8c-21f2-4b7a-91c3-1be9a5c900f7)
+![image](https://github.com/paulf35/cd-ds-productsalespredictions/assets/133720473/2dc5a5c6-fa0e-4afa-915c-a69b177ab0e1)
 
 # Explantory Visuals
 
