@@ -31,26 +31,26 @@ To prepare this data, the following processes were performed:
 ## Exploratory Data Analysis Performed:
 During the Exploratory Data Analysis stage, we created the following visuals:
 - A histogram for each numerical feature.
-- Boxplots to view statistical summaries of numerical features
-  Countplots to view the frequency of each class of categorial features.
-- A Heatmap to view the correlation between features.
+- Boxplots to view statistical summaries of numerical features.
+- Countplots to view the frequency of each class of categorial features.
+- A heatmap to view the correlation between features.
   
 ## Key Insights:
-1. When looking at the distrubtion of Item types, Fruits and Vegetables has the higest count. Seafood has the lowest count.
+1. When looking at the distrubtion of item types, Fruits and Vegetables has the higest count. Seafood has the lowest count.
    
 ![EDA-ItemType-CountPlot](https://github.com/paulf35/cd-ds-productsalespredictions/assets/133720473/7b16e80b-9923-4454-b695-d5cecd8049a0)
 
-3. Average weights across all item types are very similar
+3. The average weights across all item types are very similar.
    
 ![EDA-Item_Type-BoxPlot](https://github.com/paulf35/cd-ds-productsalespredictions/assets/133720473/14c7cc8c-21f2-4b7a-91c3-1be9a5c900f7)
 
 # Explantory Visuals
 
-1. The most common item type is Fruits and Vegetables, which occurs 1,232 times (14.46%) in the dataset. 
+1. The most common item type is 'Fruits and Vegetables,' which occurs 1,232 times (14.46%) in the dataset. 
 
 ![Count-Item-Type](https://github.com/paulf35/cd-ds-productsalespredictions/assets/133720473/d5f55c33-265a-4e81-bcdf-4c5b099d7800)
 
-2. The most common Outlet Size is 'Medium', which occurs 2,793 times (32.77%) in the dataset. 
+2. The most common outlet size is 'Medium', which occurs 2,793 times (32.77%) in the dataset. 
 
 ![EDA-OutletSize](https://github.com/paulf35/cd-ds-productsalespredictions/assets/133720473/1d60482e-7533-46c3-8b9d-e76b30298d6d)
 
@@ -80,7 +80,7 @@ The tables below sow the MAE, MSE, RSME, and R^2 results for each model tested.
 |Train |637.369	| 806900.857 | 898.277 | 0.727
 |Test |	748.389 |	1154142.731 |	1074.310 |0.588
 
-Based on the results detailed in the Model Evaluation and Results section, the best performing modelwas the Tuned Random Forest model. However, There is bias to the model.  It returned the lowest MAE value ($748.39) among the three models tested, which is acceptable given the average price for homes in the dataset. However, The R^2 value is only 58.8%, which means the that model is only predicting results for just over half of the data.
+Based on the results detailed in the **Model Evaluation and Results** section, the best performing model was the Tuned Random Forest model. It returned the lowest MAE value ($748.39) among the three models tested, which is acceptable given the average price for homes in the dataset. However, The R^2 value is only 58.8%, which means the that model does have bias. It's predicting results for just over half of the data
 
 ## Recommendation
-My recommendation is to test new models, as well as continue tuning the exiseting models in order to increase the R^2 value. Additionally, in future models, I recommend we add additional helpful data and remove any features that aren't needed to create an accurate model.  
+My recommendation is to test new models, as well as continue tuning the existing models in order to increase the R^2 value, while maintaining a low MAE value. Additionally, in future models, I recommend that we add additional ddata and features that might be helpful, as well as remove any features that aren't needed.  
