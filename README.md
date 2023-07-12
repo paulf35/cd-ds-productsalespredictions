@@ -55,13 +55,13 @@ During the Exploratory Data Analysis stage, we created the following visuals:
 ![EDA-OutletSize](https://github.com/paulf35/cd-ds-productsalespredictions/assets/133720473/1d60482e-7533-46c3-8b9d-e76b30298d6d)
 
 # Machine Learning Modeling and Evaluation
-
-## Evaluated Models:
+Below is a list of all three models tested: 
 - Linear Regression Model
 - Random Forest Model
 - Tuned Random Forest model
 
-## Model Evaluations and Results:
+The tables below sow the MAE, MSE, RSME, and R^2 results for each model tested. 
+
 **Linear Regression Model:**
 |     | MAE  | MSE | RMSE | R^2 |
 |-----|-------|-----------|--------|-----|
@@ -83,4 +83,4 @@ During the Exploratory Data Analysis stage, we created the following visuals:
 Based on the results detailed in the Model Evaluation and Results section, the best performing modelwas the Tuned Random Forest model. However, There is bias to the model.  It returned the lowest MAE value ($748.39) among the three models tested, which is acceptable given the average price for homes in the dataset. However, The R^2 value is only 58.8%, which means the that model is only predicting results for just over half of the data.
 
 # Model Recommendation
-My recommendation is to test new models and continue tuning the model to increase the R^2 value. Additionally, in future models, I recommend we add additional helpful data and remove any features that aren't needed to create an accurate model.  
+My recommendation is to test new models, as well as continue tuning the exiseting models in order to increase the R^2 value. Additionally, in future models, I recommend we add additional helpful data and remove any features that aren't needed to create an accurate model.  
