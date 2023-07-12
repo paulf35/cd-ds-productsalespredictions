@@ -82,5 +82,5 @@ The tables below sow the MAE, MSE, RSME, and R^2 results for each model tested.
 
 Based on the results detailed in the Model Evaluation and Results section, the best performing modelwas the Tuned Random Forest model. However, There is bias to the model.  It returned the lowest MAE value ($748.39) among the three models tested, which is acceptable given the average price for homes in the dataset. However, The R^2 value is only 58.8%, which means the that model is only predicting results for just over half of the data.
 
-# Model Recommendation
+## Recommendation
 My recommendation is to test new models, as well as continue tuning the exiseting models in order to increase the R^2 value. Additionally, in future models, I recommend we add additional helpful data and remove any features that aren't needed to create an accurate model.  
