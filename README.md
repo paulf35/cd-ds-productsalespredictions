@@ -62,7 +62,7 @@ Below is a list of all three models tested:
 
 The tables below sow the MAE, MSE, RSME, and R^2 results for each model tested. 
 
-**Linear Regression Model:**
+**Default Linear Regression Model:**
 |     | MAE  | MSE | RMSE | R^2 |
 |-----|-------|-----------|--------|-----|
 |Train|847.663|1298669.325|1139.592|0.561|
@@ -80,7 +80,9 @@ The tables below sow the MAE, MSE, RSME, and R^2 results for each model tested.
 |Train |637.369	| 806900.857 | 898.277 | 0.727
 |Test |	748.389 |	1154142.731 |	1074.310 |0.588
 
-Based on the results detailed in the **Model Evaluation and Results** section, the best performing model was the Tuned Random Forest model. It returned the lowest MAE value ($748.39) among the three models tested, which is acceptable given the average price for homes in the dataset. However, The R^2 value is only 58.8%, which means the that model does have bias. It's predicting results for just over half of the data
+Based on the results detailed in the **Model Evaluation and Results** section, the Default Linear Regression model performed the best out of the three models. The MAE value for the Test data was `$810.39`, which is an acceptable range and similar the MAE value of the train data. RMSE results show a similar trend. On the Test data, the RMSE value sas '$1,100.15`, which is in an acceptable range and similar to the RMSE value in the Training set. 
+
+R^2 values are low, which shows there is bias in the model. The R^2 value for the Test dataset is `56.8%`. Ideally, we'd want this value to be higher, but because it's similar to the Train R^2 value (`56.1%) means there only a slight underfit. 
 
 ## Recommendation
-My recommendation is to test new models, as well as continue tuning the existing models in order to increase the R^2 value, while maintaining a low MAE value. Additionally, in future models, I recommend that we add additional ddata and features that might be helpful, as well as remove any features that aren't needed.  
+Based on the results I recommend that we **DO NOT** deploy any of the tested models. I recommend that we continue tuning the existing linear regression model in order to increase the R^2 value, while optimizing for low bias and variance. We should also test additionl models. Additionally, in future models, I recommend that we add additional ddata and features that might be helpful, as well as remove any features that aren't needed.  
